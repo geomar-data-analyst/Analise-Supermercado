@@ -1,3 +1,59 @@
+# Supermarket-Analysis
+# 🛒 Supermarket Sales Analysis
+
+This project performs an exploratory and strategic analysis of supermarket sales data using the `supermercado.csv` dataset. The objective is to extract relevant insights for managerial decision-making, such as branch performance, customer behavior, best-selling products, and tax impact.
+
+---
+
+## 📁 Dataset: `supermercado.csv`
+
+The file contains detailed records of transactions made in four branches: São Luís, Imperatriz, Teresina, and Belém.
+
+### 📌 Column Structure
+
+| Column | Description |
+|--------------------|-------------------------------------------------------------------------|
+| `Transaction_ID` | Unique purchase identifier |
+| `Date` | Transaction date |
+| `Time` | Transaction time |
+| `Branch` | Store where the purchase occurred |
+| `Customer_Type` | Customer type (Member or Regular) |
+| `Payment_Method` | Payment method |
+| `Product` | Item purchased |
+| `Category` | Product category |
+| `Unit_Price` | Price per unit |
+| `Quantity` | Number of units purchased |
+| `Cost` | Total item price (Unit_Price × Quantity) |
+| `ICMS_Tax` | 18% tax on the cost |
+| `Total` | Final purchase amount, including tax |
+| `Customer_Rating` | Rating from 1 to 10 given by the customer |
+
+---
+
+## 🧪 Analyses Performed
+
+- Total revenue by branch
+- Average rating by store and customer type
+- Best-selling and most profitable products
+- Sales by hour and day of the week
+- ICMS tax impact by product and category
+- Comparison between member and regular customers
+- Average ticket per transaction
+- Sales trends over time
+
+---
+
+## 📊 Tools Used
+
+- Python: pandas, matplotlib, seaborn
+- Jupyter Notebook: for visualization and interactive exploration
+- (Optional) Power BI / Excel: for visual dashboards
+
+---
+
+
+
+
 # Analise-Supermercado
 # 🛒 Análise de Vendas de Supermercado
 
